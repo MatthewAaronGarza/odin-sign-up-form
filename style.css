@@ -18,3 +18,16 @@
     gap: 10px;
 }
 
+.first-name-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 250px; /* set a fixed width for the input field */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+}

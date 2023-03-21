@@ -1,5 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .all-content {
     display: flex;
+    gap: 10px;
 }
 
 .image {
@@ -10,4 +15,6 @@
 .right-content {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
+
